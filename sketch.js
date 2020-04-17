@@ -374,7 +374,7 @@ function keyPressed() {
       let x = Math.ceil(mouseX / TILE_SIZE);
       let y = Math.ceil(mouseY / TILE_SIZE);
       if (mapTiles[x - 1][y - 1].type == 2) {
-        numberOfWaypoints -= 1;
+        finalPosition = null;
       } else if (mapTiles[x - 1][y - 1].type == 3) {
         playerPosition = null;
       }
