@@ -16,3 +16,5 @@ caminho disponível.
 Paredes = tiles vermelhos.
 Ponto final = tile verde.
 Jogador = tile azul.
+
+Após criar o labirinto desejado, é só clicar no botão "Começar" que o script irá procurar o caminho mais curto e destacá-lo na cor laranja.
