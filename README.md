@@ -3,7 +3,7 @@
 O Mazesolver é uma uma página web que utiliza javascript para criar uma maneira de visualizar o algoritmo Dijkstra.
 No projeto utilizamos o framweork Processing.js, que facilita a renderização e vizualiação de dados utilizando javascript.
 
-No código implementamos todas as etapas do algoritmo Dijkstra. 
+No código implementamos todas as etapas do algoritmo Dijkstra.
 
 No início, todos os tiles (quadrados) do mapa iniciam com a estimativa infinita, exceto pelo tile do jogador, que inicia com a
 estimativa = 0. Depois, como no algoritmo Dijkstra, o script segue "fechando" todos os nós e calculando suas estimativas, sempre procurando
@@ -12,6 +12,9 @@ maneiras de diminuí-las. No final, teremos um caminho otimizado do jogador até
 Para rodar o programa basta clonar o repositório e executar o index.html. Por enquanto só é possível colocar um ponto final. É necessário
 ter pelo menos um caminho possível do jogador até o ponto final, o script entrará em um loop infinito caso não haja pelo menos um
 caminho disponível.
+
+Para criar o labirinto basta clicar no botão "Colocar paredes" e começar a clicar nos tiles onde deseja criar obstáculos.
+E depois, basta fazer o mesmo para posicionar o ponto final e o jogador (ponto inicial).
 
 Paredes = tiles vermelhos.
 Ponto final = tile verde.

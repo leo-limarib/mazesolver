@@ -1,4 +1,4 @@
-const MAP_WIDTH = 800;
+﻿const MAP_WIDTH = 800;
 const MAP_HEIGHT = 800;
 const TILE_SIZE = 25;
 
@@ -280,7 +280,7 @@ function renderTileMap() {
         fill(0, 0, 255);
         rect(indexX * TILE_SIZE, indexY * TILE_SIZE, TILE_SIZE, TILE_SIZE);
       } else if (tile.type == 10) {
-        stroke("green");
+        stroke("orange");
         fill(255, 255, 255);
         rect(indexX * TILE_SIZE, indexY * TILE_SIZE, TILE_SIZE, TILE_SIZE);
       }
