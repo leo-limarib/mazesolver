@@ -16,6 +16,8 @@ caminho disponível.
 Para criar o labirinto basta clicar no botão "Colocar paredes" e começar a clicar nos tiles onde deseja criar obstáculos.
 E depois, basta fazer o mesmo para posicionar o ponto final e o jogador (ponto inicial).
 
+Para apagar um tile, basta colocar o mouse em cima e apertar a tecla "D".
+
 Paredes = tiles vermelhos.
 Ponto final = tile verde.
 Jogador = tile azul.
