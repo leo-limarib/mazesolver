@@ -1,5 +1,7 @@
 # mazesolver
 
+Alunos: Leonardo Lima Ribeiro e Matheus Jovanelli.
+
 O Mazesolver é uma uma página web que utiliza javascript para criar uma maneira de visualizar o algoritmo Dijkstra.
 No projeto utilizamos o framweork Processing.js, que facilita a renderização e vizualiação de dados utilizando javascript.
 
